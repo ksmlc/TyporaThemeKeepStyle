@@ -1,5 +1,6 @@
 # Jekyll and Ruby specific.
 .sass-cache
+.jekyll-cache/
 _site/*
 Gemfile.lock
 Gemfile
@@ -7,6 +8,9 @@ Gemfile
 # Bundler related.
 .bundle
 vendor/bundle/
+
+# Local preview certificates and scratch files.
+tmp/
 
 # Other.
 *.orig
